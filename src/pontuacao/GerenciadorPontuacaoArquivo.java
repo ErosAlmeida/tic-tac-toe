@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class GerenciadorPontuacaoArquivo implements GerenciadorPontuacao{
+public  class GerenciadorPontuacaoArquivo implements GerenciadorPontuacao{
   
     private static final String ARQUIVO_PONTUACAO = "pontuacao.txt";
 
