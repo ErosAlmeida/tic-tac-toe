@@ -1,17 +1,5 @@
 # 🎮 Tic-Tac-Toe — Jogo da Velha em Java
 
-\<p align="center">
-&#x20; Um jogo da velha desenvolvido em Java, com partidas para dois jogadores, validação de jogadas e sistema de pontuação persistente em arquivo.
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)" alt="Java"/>
-&#x20; \<img src="[https://img.shields.io/badge/OOP-Object--Oriented-blue?style=for-the-badge](https://img.shields.io/badge/OOP-Object--Oriented-blue?style=for-the-badge)" alt="Programação Orientada a Objetos"/>
-&#x20; \<img src="[https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)" alt="Status"/>
-\</p>
-
----
-
 ## 📌 Sobre o projeto
 
 Este projeto implementa o clássico **Jogo da Velha (Tic-Tac-Toe)** em Java, executado pelo terminal.
