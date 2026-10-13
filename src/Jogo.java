@@ -2,7 +2,6 @@ import io.Console;
 import pontuacao.GerenciadorPontuacao;
 import pontuacao.GerenciadorPontuacaoArquivo;
 import pontuacao.PontuacaoException;
-
 import java.util.ArrayList;
 import java.util.List;
 
