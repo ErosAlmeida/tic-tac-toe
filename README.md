@@ -97,13 +97,6 @@ Este projeto faz parte da minha prática com Java e tem como objetivo consolidar
 
 Durante o desenvolvimento, exercito a organização do código em classes, a separação de responsabilidades, o tratamento de erros e a persistência de dados, buscando escrever código cada vez mais claro e organizado.
 
-## 🚀 Próximas melhorias
-
-- [ ] Melhorar a experiência visual no terminal.
-- [ ] Adicionar testes automatizados.
-- [ ] Aprimorar as validações de entrada.
-- [ ] Expandir as funcionalidades do sistema de pontuação.
-
 ## 👨‍💻 Autor
 
 **Eros Almeida**
