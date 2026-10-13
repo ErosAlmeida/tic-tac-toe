@@ -1,4 +1,4 @@
-import java.io.Console;
+import io.Console;
 
 public class Jogador {
 
