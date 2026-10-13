@@ -112,7 +112,7 @@ Durante o desenvolvimento, exercito a organização do código em classes, a sep
 
 ---
 
-\<p align="center">
-&#x20; Desenvolvido com ☕ Java e dedicação aos estudos de programação.
-\</p>
+
+Desenvolvido com ☕ Java e dedicação aos estudos de programação.
+
 
