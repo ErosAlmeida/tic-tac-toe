@@ -1,15 +1,31 @@
 package pontuacao;
 
-public class GerenciadorPontuacaoArquivo implements GerenciadorPontuacao{
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
+public abstract class GerenciadorPontuacaoArquivo implements GerenciadorPontuacao{
+  
+    private static final String ARQUIVO_PONTUACAO = "pontuacao.txt";
 
-    @Override
-    public Integer getPontuacao(String nome) {
-        return 0;
+    private Map<String, Integer> pontuacaoMap = new HashMap<String, Integer>();
+
+   
+    public GerenciadorPontuacaoArquivo() throws PontuacaoException {
+        inicializar();
     }
 
-    @Override
-    public void gravarPontuacao(String nome) throws PontuacaoException {
+    private void inicializar() throws PontuacaoException {
+            File arquivo = new File(ARQUIVO_PONTUACAO);
+            if(!arquivo.exists()){
+                try {
+                    arquivo.createNewFile();
+                }catch (IOException e){
+                    throw new PontuacaoException(e.getMessage());
+                }
+            }
 
+
+        }
     }
-}
