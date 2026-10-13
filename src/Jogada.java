@@ -1,7 +1,7 @@
 public class Jogada {
 
-    private int i;
-    private int j;
+    private int i;//linha
+    private int j; // coluna
 
     public Jogada(String jogada) throws JogadaInvalidaException{
         parseString(jogada);
